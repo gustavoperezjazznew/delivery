@@ -19,6 +19,7 @@ class CreateHorariosTable extends Migration
             $table->string('diahasta');
             $table->string('horadesde');
             $table->string('horahasta');
+            $table->timestamps();
         });
     }
 
